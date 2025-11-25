@@ -1,0 +1,11 @@
+K-Means Clustering Analysis:
+This project involved implementing the K-Means clustering algorithm from scratch and applying it to a synthetic 3D dataset containing four well-separated clusters. The algorithm successfully converged, and the final clustering results showed clear separation between the groups.
+
+Clustering Quality:
+The custom K-Means implementation correctly identified the structure of the dataset. Because the data was generated with four distinct clusters, the algorithm formed compact and well-defined groups with minimal overlap. The inertia (sum of squared distances within clusters) decreased significantly in the early values of K, indicating improved clustering quality.
+
+Elbow Method and Selection of K:
+When plotting inertia for K = 1 to 10, a sharp drop occurred from K=1 to K=4. After K=4, the decrease became small and gradual. This forms a clear “elbow” in the curve, which indicates the point where adding more clusters no longer yields meaningful improvement.
+
+Conclusion:
+The Elbow Method identifies K = 4 as the optimal number of clusters. This matches the known ground truth of the data, confirming that the custom K-Means implementation performed accurately and effectively. The results demonstrate strong cluster separation and stable convergence behavior.
