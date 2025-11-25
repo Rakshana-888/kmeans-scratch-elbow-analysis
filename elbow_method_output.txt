@@ -1,0 +1,17 @@
+Elbow Method - Inertia vs K (Text-Based Output)
+
+K=1  -> Inertia = 64528.3931
+K=2  -> Inertia = 21109.4469
+K=3  -> Inertia = 3708.7199
+K=4  -> Inertia = 707.4600
+K=5  -> Inertia = 661.1148
+K=6  -> Inertia = 618.0512
+K=7  -> Inertia = 578.5969
+K=8  -> Inertia = 540.0076
+K=9  -> Inertia = 506.4744
+K=10 -> Inertia = 481.0322
+
+Description:
+The inertia drops sharply between K=1 → K=4.
+After K=4, additional clusters provide only small improvements.
+This forms the characteristic 'elbow,' indicating that K = 4 is optimal.
